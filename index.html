@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Test your clickspeed</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+
+    </head>
+    <body>
+        <h1>TEST YOUR CLICKSPEED by Schmid</h1>
+        <br>
+        <br>
+        <div id="result" style="display: none;">
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <h3>Your clickspeed is<br></h3>
+            <h2><span id="clickspeed"></span> clicks per second! <br></h2> 
+            <h3>Swiftness: <h2><span id="swiftness"></span></h2></h3><br>
+            <img id="img" src="" alt="">
+            <br>
+            <br>
+            <br>
+            <br>
+            <button id="back" onclick="set_back()">click here to go back</button>
+            <br>
+        </div>
+        <h2>Seconds: <span id="time">10</span></h2>
+        <h2>Current score: <span id="current_score">0</span></h2>
+        <br>
+        <br>
+
+        <button id="clickbutton" onclick="increment_counter()">Click here to start playing</button>
+
+        <script src="script.js"></script>        
+    </body>
+</html>

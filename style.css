@@ -1,0 +1,34 @@
+h1, h2{
+        text-align: center;
+    }
+    img{
+        width: 300px;
+        height: auto;
+    }
+    #back{
+        padding: 20px;
+        margin: auto;
+        display: block;
+        font-size: larger;
+    }
+    #clickbutton{
+        width: 50%;
+        height: 590px;
+        margin: auto;
+        display: block;
+        font-size: larger;
+    }
+    #result{
+        width: 55%;
+        height: auto;
+        position: fixed;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        background-color: lightcoral;
+        position: fixed;
+        font-size: larger;
+        border: 2px solid black;
+        border-radius: 70px;
+        text-align: center;   
+    }
